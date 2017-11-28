@@ -2,7 +2,7 @@ const Command = require('command')
 module.exports = function ChatMemes(dispatch) {
     const command = Command(dispatch)
     let enabled = true
-    let memeChats = [0,4,3,27,213]
+    let memeChats = [0,4,3,27,213,214]
     command.add('rc', (option) => {
 		switch (option) {
             case 'switch': 
