@@ -6,7 +6,7 @@ module.exports = function ChatMemes(mod) {
     mod.command.add('memes', {
         switch(){
             enabled = !enabled;
-            mod.command,message(`Enabled: ${enabled}`);
+            mod.command.message(`Enabled: ${enabled}`);
         }
     });
     
