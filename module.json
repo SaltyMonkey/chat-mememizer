@@ -1,8 +1,13 @@
 {
     "disableAutoUpdate": false,
+    "name": "chat-mememizer",
+    "author": "SaltyMonkey",
+    "description": "Bored? Global chat useless again? This module for you!",
     "options": {
         "niceName": "CM"
     },
-    "servers": ["https://raw.githubusercontent.com/SaltyMonkey/chat-mememizer/master/"],
+    "servers": [
+        "https://raw.githubusercontent.com/SaltyMonkey/chat-mememizer/master/"
+    ],
     "supportUrl": "https://github.com/SaltyMonkey/chat-mememizer/issues"
 }
