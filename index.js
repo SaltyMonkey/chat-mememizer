@@ -10,7 +10,7 @@ module.exports = function ChatMemes(mod) {
         }
     });
     
-    mod.hook('S_CHAT', 3, event => {
+    mod.hook('S_CHAT', mod.majorPatchVersion >= 108 ? 4 : 3, event => {
         if(enabled && memeChats.includes(event.channel)) {
           
             let content = /<FONT>(.*?)<\/FONT>/g.exec(event.message);
